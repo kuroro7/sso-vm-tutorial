@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="rpcalls.xsl"?>
+
+<application namespace="GNET">
+	<operation name="Toggle_NameID" type="0" description="ÇÐ»»Íæ¼ÒÃû×ÖÓëID"/>
+	<operation name="Hide_BeGod" type="1" description="½øÈëÒþÉí»òÎÞµÐ×´Ì¬"/>
+	<operation name="Online_OrNot" type="2" description="ÇÐ»»ÊÇ·ñÔÚÏß"/>
+	<operation name="Chat_OrNot" type="3" description="ÇÐ»»ÊÇ·ñ¿ÉÒÔÃÜÓï"/>
+	<operation name="MoveTo_Role" type="4" description="ÒÆ¶¯µ½Ö¸¶¨½ÇÉ«Éí±ß"/>
+	<operation name="Fetch_Role" type="5" description="½«Ö¸¶¨½ÇÉ«ÕÙ»½µ½GMÉí±ß"/>
+	<operation name="Move_AsWill" type="6" description="ÒÆ¶¯µ½Ö¸¶¨Î»ÖÃ"/>
+	<operation name="MoveTo_NPC" type="7" description="ÒÆ¶¯µ½Ö¸¶¨NPCÎ»ÖÃ"/>
+	<operation name="MoveTo_Map" type="8" description="ÒÆ¶¯µ½Ö¸¶¨µØÍ¼£¨¸±±¾£©"/>
+	<operation name="Enhance_Speed" type="9" description="ÒÆ¶¯¼ÓËÙ"/>
+	<operation name="Follow" type="10" description="¸úËæÍæ¼Ò"/>
+	<operation name="ListUser" type="11" description="»ñÈ¡ÔÚÏßÍæ¼ÒÁÐ±í"/>
+	<!--***  level-2 ***-->
+	<operation name="Force_Offline" type="100" description="Ç¿ÖÆÀëÏß"/>
+	<operation name="Forbid_Talk" type="101" description="½ûÑÔ"/>
+	<operation name="Forbid_Trade" type="102" description="½ûÖ¹Íæ¼Ò¼ä¡¢Íæ¼ÒÓëNPC½»Ò×"/>
+	<operation name="Forbid_Sell" type="103" description="½ûÂô"/>
+	<operation name="Broadcast" type="104" description="ÏµÍ³¹ã²¥"/>
+	<operation name="Shutdown_GameServer" type="105" description="¹Ø±ÕÓÎÏ··þÎñÆ÷"/>
+	<!--*** level-3 ***-->
+	<operation name="Summon_Monster" type="200" description="ÕÙ»½¹ÖÎï"/>
+	<operation name="Dispel_Summon" type="201" description="ÇýÉ¢±»ÕÙ»½ÎïÌå"/>
+	<operation name="Pretend" type="202" description="Î±×°"/>
+	<operation name="GMMaster" type="203" description="GM¹ÜÀíÔ±"/>
+	<operation name="DoubleExp" type="204" description="Ë«±¶¾­Ñé"/>
+	<operation name="Lambda" type="205" description="²¢·¢Á¬½ÓÊý"/>
+	<operation name="ActivityManager" type="206" description="»î¶¯¹ÜÀíÔ±"/>
+	<operation name="NoTrade" type="207" description="½ûÖ¹Íæ¼Ò¼ä½»Ò×"/>
+	<operation name="NoAuction" type="208" description="½ûÖ¹ÅÄÂô²Ù×÷"/>
+	<operation name="NoMail" type="209" description="½ûÖ¹ÓÊ¼þ²Ù×÷"/>
+	<operation name="NoFaction" type="210" description="½ûÖ¹°ïÅÉ²Ù×÷"/>
+	<operation name="DoubleMoney" type="211" description="Ë«±¶µôÇ®"/>
+	<operation name="DoubleObject" type="212" description="Ë«±¶µôÎï"/>
+	<operation name="DoubleSP" type="213" description="Ë«±¶¼¼ÄÜµã"/>
+	<operation name="NoSellPoint" type="214" description="½ûÖ¹ÏúÊÛµã¿¨"/>
+
+	<!-- system department -->
+	<operation name="ModifyRoleInfo" type="501" description="ÐÞ¸Ä½ÇÉ«"/>
+	<operation name="ViewStatus" type="502" description="²é¿´·þÎñÆ÷ÔËÐÐ×´Ì¬"/>
+	<operation name="ViewLog" type="503" description="²é¿´ÈÕÖ¾"/>
+	<operation name="ForceRestartGame" type="504" description="Ç¿ÖÆ¹Ø±ÕºÍÖØÆôÓÎÏ··þÎñÆ÷"/>
+	<operation name="ForceRestartDB" type="505" description="Ç¿ÖÆ¹Ø±ÕºÍÖØÆôÊý¾Ý¿â·þÎñÆ÷"/>
+	<operation name="QueryRoleID" type="506" description="ID²éÑ¯"/>
+	<operation name="QueryRoleInfo" type="507" description="½ÇÉ«ÐÅÏ¢"/>
+	<operation name="QueryRoleStatus" type="508" description="½ÇÉ«×´Ì¬"/>
+	<operation name="Present" type="509" description="ÏòÌØ¶¨½ÇÉ«ÔùËÍÎïÆ·"/>
+
+	<operation name="GetUserForbids" type="510" description="·âºÅ¼ÇÂ¼"/>
+	<operation name="GetUserCardused" type="511" description="³äÖµ¼ÇÂ¼"/>
+	<operation name="GetUserPoints" type="512" description="Óà¶î²éÑ¯"/>
+	<operation name="UpdateUserPoint" type="513" description="ÐÞ¸ÄÓà¶î"/>
+	<operation name="GetUserInfoByName" type="514" description="ÕÊºÅÐÅÏ¢"/>
+	<operation name="UpdateUserInfoByName" type="515" description="ÕÊºÅÐÞ¸Ä"/>
+	<operation name="UnkickUser" type="516" description="½â·â"/>
+	<operation name="GetRoleList" type="517" description="½ÇÉ«ÁÐ±í"/>
+	<operation name="UpdateAccountPasswd" type="518" description="¸ÄÃÜÂë"/>
+
+	<zone id="1"  aid="1" name="WanMei1"  location="WanMei1"   url="http://127.0.0.1/iweb/gmservice"    url2="" delivery="1127.0.0.1" gacdport="29712"/>
+
+</application>
+

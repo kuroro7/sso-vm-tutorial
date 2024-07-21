@@ -1,0 +1,10 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+127.0.0.1   localhost localhost.localdomain localhost6 localhost6.localdomain6
+127.0.0.1 localhost.localdomain localhost 
+127.0.0.1 manager 
+127.0.0.1 aumanager 
+127.0.0.1 auth 
+127.0.0.1 audb 
+127.0.0.1 link1 link2 game1 game2 game3 game4 delivery database backup 
+127.0.0.1  gmserver.localdomain    gmserver 127.0.0.1 bogon # added by Apache Friends XAMPP
