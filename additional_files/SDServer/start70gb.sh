@@ -86,9 +86,6 @@ cd $PW_PATH/gamed; ./gs gs.conf gmserver.conf gsalias37.conf > $PW_PATH/logs/gam
 cd $PW_PATH/gamed; ./gs gs.conf gmserver.conf gsalias38.conf > $PW_PATH/logs/game38.log &
 cd $PW_PATH/gamed; ./gs gs.conf gmserver.conf gsalias39.conf > $PW_PATH/logs/game39.log &
 cd $PW_PATH/gamed; ./gs gs.conf gmserver.conf gsalias40.conf > $PW_PATH/logs/game40.log &
-# ALTERAR PRA PEGAR DO 0 ATÉ O 15 (pula o 1)
-# DEPOIS ADICIONAR DO 31 AO 40
-
 
 #cd $PW_PATH/gamed; ./gs gs.conf gmserver.conf gsalias13.conf > $PW_PATH/logs/game13.log &
 #cd $PW_PATH/gamed; ./gs gs.conf gmserver.conf gsalias120.conf > $PW_PATH/logs/game102.log &
