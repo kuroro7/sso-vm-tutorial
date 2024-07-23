@@ -270,7 +270,7 @@ systemctl restart nginx
 
 ## SSH Security
 
-First, generate a rsa public key:
+First, generate a rsa public key in your own machine:
 
 ```sh
 # linux
