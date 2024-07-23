@@ -406,7 +406,7 @@ tail -f /var/log/cron
 # Only main maps
 /SDServer/start.sh
 
-# 60gb settings
+# 64gb settings
 /SDServer/start70gb.sh
 
 # Cross Server settings
