@@ -270,7 +270,7 @@ systemctl restart nginx
 
 ## SSH Security
 
-First, generate a rsa public key:
+First, generate a rsa public key in **your machine** and use ssh-copy-id to allow your remote server to accept your new generated key:
 
 ```sh
 # linux
@@ -315,13 +315,13 @@ firewall-cmd --reload
 
 ## Fail2Ban
 
-Install Fail2Ban:
+Install fail2ban
 
 ```sh
 yum -y install fail2ban
 ```
 
-Add configurations to services, editting the file `/etc/fail2ban/jail.local`:
+Add configurations to services, editting the file `/etc/fail2ban/jail.local`. This configuration below will ban for 10 hours every IP that attempts to access sshd/ngingx server. You can customize as you want.
 
 ```conf
 [DEFAULT]
