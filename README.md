@@ -387,10 +387,10 @@ Add these jobs with `crontab -e`:
 # Every sunday at 5am
 0 5 * * 1 /SDServer/rankleagueweekly.sh
 
-# Everyday at 2am (MySQL Backup)
+# Everyday at midnight (MySQL Backup)
 0 0 * * * /SDServer/mysql-backup.sh
 
-# Everyday at 2am (GameDB Backup)
+# Everyday at 1am (GameDB Backup)
 0 1 * * * /SDServer/gamedb-backup.sh
 ```
 
